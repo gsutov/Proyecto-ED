@@ -31,6 +31,6 @@ a: Es el valor almacenado en el nodo (puede ser de cualquier tipo: Int, Char, St
  <br>
 El representar a los hijos como [ArbolN a] en lugar de un número fijo permite: <br>
 
-Ser flexibles con la cantidad de hijos que puede tener un nodo, ya que puede tener cualquier cantidad de hijos sin ninuna restricción <br>
-Cada nodo puede tener una cantidad diferente de hijos respecto a otro nodo <br>
-Un árbol binario tiene sólo 2 hijos por nodo, la estructura implementada los generaliza
+• Ser flexibles con la cantidad de hijos que puede tener un nodo, ya que puede tener cualquier cantidad de hijos sin ninuna restricción <br>
+• Cada nodo puede tener una cantidad diferente de hijos respecto a otro nodo <br>
+• Un árbol binario tiene sólo 2 hijos por nodo, la estructura implementada los generaliza
