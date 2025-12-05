@@ -10,6 +10,7 @@ Implementación: <br>
 ```haskell
 data ArbolN a = Void | Nodo a [ArbolN a]
     deriving (Show, Eq)
+```
  <br>
 # Explicación de la Estructura
 Nuestra implementación utiliza dos constructores:
