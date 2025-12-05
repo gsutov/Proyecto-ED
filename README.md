@@ -7,10 +7,9 @@ Mondragón Ceballos Evelyn Vianey
  <br>
 Implementación: <br>
 
-\`\`\`haskell
+```haskell
 data ArbolN a = Void | Nodo a [ArbolN a]
     deriving (Show, Eq)
-\`\`\` <br>
  <br>
 # Explicación de la Estructura
 Nuestra implementación utiliza dos constructores:
