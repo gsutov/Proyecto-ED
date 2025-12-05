@@ -9,11 +9,14 @@ data ArbolN a = Void | Nodo a [ArbolN a]
 --FUNCIONES AUXILIARES.
 --Para formulas de logica proposicional.
 
-p, q, r, s :: Prop
+-- Fórmulas proposicionales (Variables atómicas)
+p, q, r, s, t, u :: Prop
 p = Var "p"
 q = Var "q"
 r = Var "r"
 s = Var "s"
+t = Var "t"
+u = Var "u"
 
 data Prop = Var String | Cons Bool | Not Prop
             | And Prop Prop | Or Prop Prop
